@@ -1,0 +1,12 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'CleanSwiftSample' do
+
+  pod 'RxSwift', '~> 5.1.2'
+  pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'Moya/RxSwift'
+  pod 'Swinject'
+  
+end
